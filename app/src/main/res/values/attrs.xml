@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Title">
+        <attr name="textContent" format="string"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="textBackGround" format="color"></attr>
+        <attr name="buttonLeftText" format="string"></attr>
+        <attr name="buttonLeftTextSize" format="dimension"></attr>
+        <attr name="buttonLeftTextColor" format="color"></attr>
+        <attr name="buttonLeftBackGround" format="reference"></attr>
+        <attr name="buttonRightText" format="string"></attr>
+        <attr name="buttonRightTextSize" format="dimension"></attr>
+        <attr name="buttonRightTextColor" format="color"></attr>
+        <attr name="buttonRightBackGround" format="reference"></attr>
+
+    </declare-styleable>
+</resources>

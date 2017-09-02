@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hgz.test.customviewtitle.MainActivity">
+
+    <com.hgz.test.customviewtitle.view.Title
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:buttonLeftBackGround="@drawable/my_selector"
+        app:buttonLeftText="返回"
+        app:buttonLeftTextColor="#ffffff"
+        app:buttonLeftTextSize="15sp"
+        app:buttonRightBackGround="@drawable/my_selector"
+        app:buttonRightText="更多"
+        app:buttonRightTextColor="#ffffff"
+        app:buttonRightTextSize="15sp"
+        app:textBackGround="#F49462"
+        app:textColor="#000000"
+        app:textContent="自定义标题"
+        app:textSize="15sp">
+
+    </com.hgz.test.customviewtitle.view.Title>
+
+</LinearLayout>
